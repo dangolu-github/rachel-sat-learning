@@ -2,4 +2,4 @@
 
 Learner-facing Class 00 handout and ten-question practice. Private answers, teacher notes, source maps and learner records are excluded.
 
-Online submission is pending activation.
+Homework uses a separate server-side submission service. Corrections appear only after an accepted attempt.
