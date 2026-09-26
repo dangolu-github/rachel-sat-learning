@@ -16,4 +16,5 @@ if(new URLSearchParams(location.search).get('preview')==='1'){
   const previewUrl=new URL(homeworkUrl);previewUrl.searchParams.delete('embed');
   document.getElementById('homework-open').href=previewUrl.href;
 }
-homeworkFrame.src=homeworkUrl.href;
+if(window.RachelAccess)RachelAccess.whenTrusted(function(){homeworkFrame.src=RachelAccess.withHandoff(homeworkUrl.href);});
+else homeworkFrame.src=homeworkUrl.href;
