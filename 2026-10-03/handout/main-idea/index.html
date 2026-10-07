@@ -95,4 +95,5 @@ function printBounds(){var main=page.querySelector('main'),o=offset(main),left=o
  document.getElementById('ann-fit').onclick=function(){fit=true;size()};document.getElementById('ann-actual').onclick=function(){fit=false;size()};document.getElementById('ann-print').onclick=function(){repaint();printBounds();window.print()};
  document.addEventListener('toggle',function(){requestAnimationFrame(repaint)},true);window.addEventListener('resize',size);window.addEventListener('beforeprint',function(){repaint();printBounds()});window.addEventListener('afterprint',size);
  if(document.fonts&&document.fonts.ready){document.fonts.ready.then(repaint)}else{repaint()}
-})();</script></body></html>
+})();</script><script data-paper-launch="1" src="../../../assets/paper-open.js?v=20261007" data-resource="paper-86e9c4823547f4963532" data-portal="rachel" data-endpoint="https://script.google.com/macros/s/AKfycbyjYN1Vv_4ZfQ24rw-F-kbR8t_4gCmbFZDhn4MEXt8OPMt9-wjSgMR5-FaqJN4pFFmXvg/exec"></script>
+</body></html>
